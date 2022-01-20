@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-lightBlack font-serif font-bold text-9xl md:text-10xl
+  }
+
+  h2 {
+    @apply text-black font-serif font-bold text-6xl md:text-7xl lg:text-8xl
+  }
+
+  h3 {
+    @apply text-black font-inter font-bold text-2xl
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-8 mx-auto md:max-w-small lg:max-w-large xl:max-w-xlarge
+  }
+
+  .cta-btn {
+    @apply py-[13px] px-9 rounded-lg font-inter font-medium text-xs md:text-sm
+  }
+
+  .main-btn {
+    @apply bg-orange text-white inline-block py-4 px-[59px] rounded-lg font-mulish font-bold text-sm lg:text-lg
+  }
+
+  .sec-btn {
+    @apply bg-orange text-white inline-block py-[14px] px-[38px] rounded-lg font-inter font-semibold text-sx lg:text-base
+  }
+}
