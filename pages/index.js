@@ -3,6 +3,7 @@ import Destinations from '../components/Destinations'
 import Hero from '../components/Hero'
 import Presentation1 from '../components/Presentation1'
 import Presentation2 from '../components/Presentation2'
+import Testimonials from '../components/Testimonials'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Presentation1 />
         <Destinations />
         <Presentation2 />
+        <Testimonials />
       </main>
     </div>
   )
