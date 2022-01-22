@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Destinations from '../components/Destinations'
 import Hero from '../components/Hero'
 import Presentation1 from '../components/Presentation1'
+import Presentation2 from '../components/Presentation2'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Hero />
         <Presentation1 />
         <Destinations />
+        <Presentation2 />
       </main>
     </div>
   )
