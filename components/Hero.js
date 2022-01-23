@@ -34,19 +34,21 @@ function Hero() {
 
     return (
         <section>
-            <div className="container text-center flex flex-col items-center gap-4">
-                <div className="max-w-sm">
+            <div className="container text-center grid justify-center gap-4 md:justify-start md:text-left md:grid-cols-2">
+                <div className="max-w-sm md:max-w-none md:col-start-2 md:self-center xl:row-span-2 xl:-mr-20">
                     <Image src='/ill1.png' width={687} height={654} />
                 </div>
 
-                <div>
-                    <h1>Explore and<br />Travel</h1>
-                    <p className='mt-16 mb-12 text-lightBlack font-inter font-semibold text-3xl relative after:absolute after:w-8 after:h-0.5 after:bg-lightBlack after:-bottom-4 after:left-1/2 after:-translate-x-1/2'>Holiday finder</p>
+                <h1 className='md:col-span-2 md:row-start-1 xl:col-span-1 xl:self-center'>Explore and<br />Travel</h1>
+                
+                <div className='md:row-start-2 lg:flex lg:flex-col lg:gap-y-2'>
+
+                    <p className='mt-12 mb-12 text-lightBlack font-inter font-semibold text-3xl relative after:absolute after:w-8 after:h-0.5 after:bg-lightBlack after:-bottom-4 after:left-1/2 after:-translate-x-1/2 md:after:left-0 md:after:translate-x-0 xl:text-4xl xl:mt-8'>Holiday finder</p>
                     
                     <form action="#" onSubmit={(e) => {e.preventDefault()}}>
-                        <div className="flex flex-wrap gap-x-2 gap-4 justify-center m-auto max-w-sm">
+                        <div className="flex flex-wrap gap-x-2 gap-4 justify-center m-auto max-w-sm md:m-0 xl:grid xl:grid-cols-2 xl:max-w-[480px] xl:gap-x-6 xl:gap-y-8">
 
-                            <div className='font-inter text-xs text-darkGrey min-w-[144px] flex-1 relative'>
+                            <div className='font-inter text-xs text-darkGrey min-w-[144px] flex-1 relative xl:text-sm'>
                                 <button
                                     onClick={() => {setIsOpen1(prev => !prev)}}
                                     className='flex w-full items-center justify-between border-.8 border-[#AFB0B9] rounded-md px-[18px] py-5'
@@ -60,7 +62,7 @@ function Hero() {
                                 )}
                             </div>
 
-                            <div className='font-inter text-xs text-darkGrey min-w-[144px] flex-1 relative'>
+                            <div className='font-inter text-xs text-darkGrey min-w-[144px] flex-1 relative xl:text-sm'>
                                 <button
                                     onClick={() => {setIsOpen2(prev => !prev)}}
                                     className='flex w-full items-center justify-between border-.8 border-[#AFB0B9] rounded-md px-[18px] py-5'
@@ -74,7 +76,7 @@ function Hero() {
                                 )}
                             </div>
 
-                            <div className='font-inter text-xs text-darkGrey min-w-[144px] flex-1 relative'>
+                            <div className='font-inter text-xs text-darkGrey min-w-[144px] flex-1 relative xl:text-sm'>
                                 <button
                                     onClick={() => {setIsOpen3(prev => !prev)}}
                                     className='flex w-full items-center justify-between border-.8 border-[#AFB0B9] rounded-md px-[18px] py-5'
@@ -88,7 +90,7 @@ function Hero() {
                                 )}
                             </div>
 
-                            <div className='font-inter text-xs text-darkGrey min-w-[144px] flex-1 relative'>
+                            <div className='font-inter text-xs text-darkGrey min-w-[144px] flex-1 relative xl:text-sm'>
                                 <button
                                     onClick={() => {setIsOpen4(prev => !prev)}}
                                     className='flex w-full items-center justify-between border-.8 border-[#AFB0B9] rounded-md px-[18px] py-5'
@@ -103,7 +105,7 @@ function Hero() {
                             </div>
 
                         </div>
-                        <button type="submit" className="main-btn mt-6">Explore</button>
+                        <button type="submit" className="main-btn mt-6 lg:mt-8">Explore</button>
                     </form>
 
                 </div>
