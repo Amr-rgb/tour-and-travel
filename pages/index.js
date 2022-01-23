@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import Presentation1 from '../components/Presentation1'
 import Presentation2 from '../components/Presentation2'
 import Testimonials from '../components/Testimonials'
+import Stories from '../components/Stories'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Destinations />
         <Presentation2 />
         <Testimonials />
+        <Stories />
       </main>
     </div>
   )
