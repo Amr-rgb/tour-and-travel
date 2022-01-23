@@ -5,6 +5,7 @@ import Presentation1 from '../components/Presentation1'
 import Presentation2 from '../components/Presentation2'
 import Testimonials from '../components/Testimonials'
 import Stories from '../components/Stories'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <Presentation2 />
         <Testimonials />
         <Stories />
+        <Footer />
       </main>
     </div>
   )
