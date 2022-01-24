@@ -4,10 +4,10 @@ import { IoIosArrowForward } from 'react-icons/io'
 function Destinations() {
     return (
         <section className="mt-36">
-            <div className="container font-inter text-center grid gap-y-10 md:grid-cols-2 md:text-left">
+            <div className="container font-inter text-center grid gap-y-10 md:grid-cols-2 md:text-left lg:px-20">
                 <h2>Featured destinations</h2>
                 
-                <div className="flex flex-wrap justify-center gap-y-5 gap-x-6 md:col-span-2 md:justify-start lg:justify-center">
+                <div className="flex flex-wrap justify-center gap-y-5 gap-x-6 md:col-span-2 md:justify-start xl:grid xl:grid-cols-4">
 
                     <div className="rounded-lg basis-[261px] h-[332px] bg-[url('/image1.png')] relative">
 
