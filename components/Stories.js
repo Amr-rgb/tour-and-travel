@@ -4,10 +4,10 @@ import { IoIosArrowForward } from 'react-icons/io'
 function Stories() {
     return (
         <section className='mt-36'>
-            <div className="container font-inter grid justify-center text-center grid-cols-1 gap-y-10">
+            <div className="container font-inter grid justify-center text-center grid-cols-1 gap-y-10 md:text-left md:col-span-2 lg:px-20">
                 <h2>Trending stories</h2>
 
-                <div className="flex flex-wrap justify-center gap-y-5 gap-x-6">
+                <div className="flex flex-wrap justify-center gap-y-5 gap-x-6 md:col-span-2 md:justify-start xl:grid xl:grid-cols-4">
                     <div className="text-left flex flex-col gap-y-3 max-w-[261px]">
                         <div className="h-[231px] bg-[url('/storyimg1.jpg')] bg-cover rounded-t-lg"></div>
                         <h3>The many benefits of taking a healing holiday</h3>
@@ -37,7 +37,7 @@ function Stories() {
                     </div>
                 </div>
 
-                <Link href='#'><a className="text-orange font-semibold text-sm justify-self-center flex items-center gap-x-2 py-2">View all <IoIosArrowForward /></a></Link>
+                <Link href='#'><a className="text-orange font-semibold text-sm justify-self-center flex items-center gap-x-2 py-2 md:row-start-1 md:col-start-2 md:justify-self-end">View all <IoIosArrowForward /></a></Link>
             </div>
         </section>
     );
