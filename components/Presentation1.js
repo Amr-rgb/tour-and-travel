@@ -4,14 +4,14 @@ import Link from "next/link";
 function Presentation1() {
     return (
         <section className="mt-36">
-            <div className="container flex flex-col items-center gap-y-4 max-w-md">
-                <div className="max-w-sm">
+            <div className="container flex flex-col items-center gap-y-4 max-w-md md:flex-row md:max-w-small md:gap-x-6 lg:max-w-large xl:max-w-xlarge xl:gap-x-20">
+                <div className="max-w-sm md:max-w-none md:flex-1 xl:basis-3/5">
                     <Image src='/ill2.png' width={659} height={534} />
                 </div>
 
-                <div className="text-center flex flex-col items-center gap-y-5">
+                <div className="text-center flex flex-col items-center gap-y-5 md:items-start md:text-left md:flex-1 xl:basis-2/5">
                     <h2>A new way to explore the world</h2>
-                    <p className="font-mulish font-light text-grey text-sm">For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect trip, but now, they can also let Lonely Planet Experiences lead the way</p>
+                    <p className="font-mulish font-light text-grey text-sm xl:text-lg">For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect trip, but now, they can also let Lonely Planet Experiences lead the way</p>
                     <Link href='#'><a className="sec-btn">Learn more</a></Link>
                 </div>
             </div>
