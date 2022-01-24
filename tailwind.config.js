@@ -27,7 +27,7 @@ module.exports = {
       '5xl': ['1.5rem', '36px'],
       '6xl': ['2rem', '42px'],
       '7xl': ['2.125rem', '44px'],
-      '8xl': ['2.25rem', '30px'],
+      '8xl': ['2.25rem', '50px'],
       '9xl': ['3rem', '55px'],
       '10xl': ['4rem', '80px'],
     },
