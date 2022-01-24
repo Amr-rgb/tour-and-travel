@@ -22,7 +22,7 @@ body {
 
 @layer components {
   .container {
-    @apply px-8 mx-auto md:max-w-small lg:max-w-large xl:max-w-xlarge
+    @apply px-8 mx-auto md:max-w-small lg:max-w-large xl:max-w-xlarge 2xl:max-w-2xlarge
   }
 
   .cta-btn {
