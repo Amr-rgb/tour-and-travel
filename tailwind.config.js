@@ -44,6 +44,7 @@ module.exports = {
         small: '750px',
         large: '970px',
         xlarge: '1180px',
+        '2xlarge': '1276px',
       },
     },
   },
