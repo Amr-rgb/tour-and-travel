@@ -10,7 +10,7 @@ import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div>
+    <div lang='en'>
       <Head>
         <title>Tour and Travel</title>
         <meta name="description" content="tour and travel app from figma to code using nextjs tailwindcss" />
