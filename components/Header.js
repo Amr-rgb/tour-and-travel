@@ -19,7 +19,7 @@ function Header() {
             <div className="container py-4 flex items-center justify-between md:py-6 lg:p-8 after:content-[none]">
                 <Link href='/'><a className="z-50" onClick={() => setActive('Home')}>
                     <div className="flex items-center justify-center w-[34px] md:w-auto">
-                        <Image src='/logo.svg' width={41} height={41} alt="logo" />
+                        <Image src='/images/logo.svg' width={41} height={41} alt="logo" />
                     </div>
                 </a></Link>
 

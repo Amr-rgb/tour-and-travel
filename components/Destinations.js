@@ -9,7 +9,7 @@ function Destinations() {
                 
                 <div className="flex flex-wrap justify-center gap-y-5 gap-x-6 md:col-span-2 md:justify-start xl:grid xl:grid-cols-4">
 
-                    <div className="rounded-lg basis-[261px] h-[332px] bg-[url('/image1.png')] relative">
+                    <div className="rounded-lg basis-[261px] h-[332px] bg-[url('/images/image1.png')] relative">
 
                         <div className="text-left bg-white w-fit pt-3 pr-6 rounded-tr-md absolute bottom-0 left-0">
                             <p className="font-semibold text-olive text-lg">Raja Ampat</p>
@@ -17,7 +17,7 @@ function Destinations() {
                         </div>
                     </div>
 
-                    <div className="rounded-lg basis-[261px] h-[332px] bg-[url('/image2.png')] relative">
+                    <div className="rounded-lg basis-[261px] h-[332px] bg-[url('/images/image2.png')] relative">
 
                         <div className="text-left bg-white w-fit pt-3 pr-6 rounded-tr-md absolute bottom-0 left-0">
                             <p className="font-semibold text-olive text-lg">Fanjingshan</p>
@@ -25,7 +25,7 @@ function Destinations() {
                         </div>
                     </div>
 
-                    <div className="rounded-lg basis-[261px] h-[332px] bg-[url('/image3.png')] relative">
+                    <div className="rounded-lg basis-[261px] h-[332px] bg-[url('/images/image3.png')] relative">
 
                         <div className="text-left bg-white w-fit pt-3 pr-6 rounded-tr-md absolute bottom-0 left-0">
                             <p className="font-semibold text-olive text-lg">Vevey</p>
@@ -33,7 +33,7 @@ function Destinations() {
                         </div>
                     </div>
 
-                    <div className="rounded-lg basis-[261px] h-[332px] bg-[url('/image4.png')] relative">
+                    <div className="rounded-lg basis-[261px] h-[332px] bg-[url('/images/image4.png')] relative">
 
                         <div className="text-left bg-white w-fit pt-3 pr-6 rounded-tr-md absolute bottom-0 left-0">
                             <p className="font-semibold text-olive text-lg">Skadar</p>

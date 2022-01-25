@@ -14,7 +14,7 @@ function Footer() {
 
                     <div className="col-span-2 flex flex-col gap-y-6 mb-8 md:col-span-3 md:max-w-lg xl:col-span-2">
                         <div className="w-9 md:w-11">
-                            <Image src='/logo.png' width={44} height={44} alt="logo" />
+                            <Image src='/images/logo.png' width={44} height={44} alt="logo" />
                         </div>
                         <p className="text-base xl:text-xl xl:max-w-xs">Plan and book your perfect trip with expert advice, travel tips destination information from us</p>
                         <p className="text-sm xl:text-lg xl:mt-8">©2020 Thousand Sunny. All rights reserved</p>

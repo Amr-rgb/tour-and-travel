@@ -20,7 +20,7 @@ body {
   }
 
   section {
-    @apply relative before:w-[20px] before:h-[20px] before:absolute before:bg-[url('/element.png')] before:bg-cover before:-z-10 after:w-[20px] after:h-[20px] after:absolute after:bg-[url('/element2.png')] after:bg-cover after:-z-10
+    @apply relative before:w-[20px] before:h-[20px] before:absolute before:bg-[url('/images/element.png')] before:bg-cover before:-z-10 after:w-[20px] after:h-[20px] after:absolute after:bg-[url('/images/element2.png')] after:bg-cover after:-z-10
   }
 }
 
@@ -42,7 +42,7 @@ body {
   }
 
   .container {
-    @apply after:w-[20px] after:h-[20px] after:absolute after:bg-[url('/element2.png')] after:bg-cover
+    @apply after:w-[20px] after:h-[20px] after:absolute after:bg-[url('/images/element2.png')] after:bg-cover
   }
 }
 
