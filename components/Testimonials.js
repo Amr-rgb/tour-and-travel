@@ -25,9 +25,9 @@ console.log(screenSize)
     }, [])
 
     return (
-        <section className='mt-36 md:mt-48 xl:mt-52'>
-            <div className="container text-center md:text-left lg:px-20 xl:pr-28">
-                <h2 className='mb-10'>Testimonials</h2>
+        <section className='mt-36 md:mt-48 xl:mt-52 before:content-[none] after:content-[none]'>
+            <div className="container text-center md:text-left lg:px-20 xl:pr-28 after:left-3/4 after:bottom-8 md:after:left-[3%] md:after:top-1/2 lg:after:left-[5%]">
+                <h2 className='mb-6'>Testimonials</h2>
 
                 <Swiper
                     spaceBetween={screenSize >= 768 ? 100 : 20}
@@ -37,9 +37,9 @@ console.log(screenSize)
                     }}
                 >
 
-                    <SwiperSlide className='flex flex-col items-center gap-y-10 md:flex-row-reverse md:justify-between'>
-                        <div className='max-w-xs rounded-[14px] overflow-hidden relative'>
-                            <Image src='/man.jpg' width={384} height={491} alt='user' />
+                    <SwiperSlide className='flex flex-col items-center gap-y-10 md:flex-row-reverse md:justify-between pt-4 md:pr-4 md:pb-4'>
+                        <div className="max-w-xs rounded-[14px] relative before:absolute before:w-[42px] before:h-[42px] before:bg-[url('/element2.png')] before:bg-cover after:absolute after:w-[32px] after:h-[32px] after:bg-[url('/element.png')] after:bg-cover after:z-50 after:-left-4 after:-bottom-2 before:-top-4 before:-right-4">
+                            <Image className='rounded-[14px]' src='/man.jpg' width={384} height={491} alt='user' />
 
                             <div className='flex gap-x-4 absolute bottom-1 right-0 bg-white pt-3 pl-6 rounded-tl-2xl'>
                                 <button className='prev font-black text-xl p-2 rounded-full border-2 disabled:text-grey'><IoIosArrowBack /></button>

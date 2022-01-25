@@ -9,7 +9,7 @@ import { BsYoutube } from 'react-icons/bs'
 function Footer() {
     return (
         <footer className="bg-[#F9F9FB] mt-36 md:mt-48 xl:mt-52">
-            <div className="container pt-12 pb-8 md:pt-16">
+            <div className="container pt-12 pb-8 md:pt-16 after:content-[none]">
                 <div className="font-mulish font-light text-lightGrey grid grid-cols-2 gap-y-8 md:grid-cols-3 xl:grid-cols-5  xl:items-start xl:gap-x-16">
 
                     <div className="col-span-2 flex flex-col gap-y-6 mb-8 md:col-span-3 md:max-w-lg xl:col-span-2">

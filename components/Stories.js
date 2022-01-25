@@ -3,8 +3,8 @@ import { IoIosArrowForward } from 'react-icons/io'
 
 function Stories() {
     return (
-        <section className='mt-36 md:mt-48 xl:mt-52'>
-            <div className="container font-inter grid justify-center text-center grid-cols-1 gap-y-10 md:text-left md:col-span-2 lg:px-20">
+        <section className='mt-36 md:mt-48 xl:mt-52 before:left-3/4 before:-top-4 after:left-1/4 md:after:left-[80%] md:after:bottom-20 md:before:left-1/4 lg:before:left-1/2 lg:before:-top-10 xl:before:left-[40%] xl:after:-bottom-12 xl:after:left-[65%]'>
+            <div className="container font-inter grid justify-center text-center grid-cols-1 gap-y-10 md:text-left md:col-span-2 lg:px-20 after:content-[none] md:after:content-[''] md:after:top-3/4 md:after:left-4 lg:after:left-10 lg:after:top-[60%]">
                 <h2>Trending stories</h2>
 
                 <div className="flex flex-wrap justify-center gap-y-5 gap-x-6 md:col-span-2 md:justify-start xl:grid xl:grid-cols-4">

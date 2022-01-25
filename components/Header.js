@@ -16,7 +16,7 @@ function Header() {
 
     return (
         <header className="bg-white w-full top-0 left-0 z-40">
-            <div className="container py-4 flex items-center justify-between md:py-6 lg:p-8">
+            <div className="container py-4 flex items-center justify-between md:py-6 lg:p-8 after:content-[none]">
                 <Link href='/'><a className="z-50">
                     <div className="flex items-center justify-center w-[34px] md:w-auto">
                         <Image src='/logo.svg' width={41} height={41} alt="logo" />

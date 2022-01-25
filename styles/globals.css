@@ -18,6 +18,10 @@ body {
   h3 {
     @apply text-black font-inter font-bold text-2xl
   }
+
+  section {
+    @apply relative before:w-[20px] before:h-[20px] before:absolute before:bg-[url('/element.png')] before:bg-cover before:-z-10 after:w-[20px] after:h-[20px] after:absolute after:bg-[url('/element2.png')] after:bg-cover after:-z-10
+  }
 }
 
 @layer components {
@@ -35,6 +39,10 @@ body {
 
   .sec-btn {
     @apply bg-orange text-white inline-block py-[14px] px-[38px] rounded-lg font-inter font-semibold text-xs lg:text-base
+  }
+
+  .container {
+    @apply after:w-[20px] after:h-[20px] after:absolute after:bg-[url('/element2.png')] after:bg-cover
   }
 }
 

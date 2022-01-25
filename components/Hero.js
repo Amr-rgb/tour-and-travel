@@ -33,8 +33,8 @@ function Hero() {
     }
 
     return (
-        <section className='mt-10 md:mt-16'>
-            <div className="container text-center grid justify-center gap-4 md:justify-start md:text-left md:grid-cols-2">
+        <section className='mt-10 md:mt-16 before:left-[15%] after:left-[90%] after:bottom-[20%] md:before:left-2/3 md:after:left-1/2 md:after:bottom-0 xl:before:left-[40%]'>
+            <div className="container text-center grid justify-center gap-4 md:justify-start md:text-left md:grid-cols-2 after:content-[none] md:after:content-[''] md:after:top-1/2 md:after:-translate-x-[7rem] after:w-[26px] after:h-[26px]">
                 <div className="max-w-sm md:max-w-none md:col-start-2 md:self-center xl:row-span-2 xl:-mr-20">
                     <Image src='/ill1.png' width={687} height={654} />
                 </div>

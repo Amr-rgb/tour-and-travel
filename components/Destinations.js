@@ -3,8 +3,8 @@ import { IoIosArrowForward } from 'react-icons/io'
 
 function Destinations() {
     return (
-        <section className="mt-36 md:mt-48 xl:mt-52">
-            <div className="container font-inter text-center grid gap-y-10 md:grid-cols-2 md:text-left lg:px-20">
+        <section className="mt-36 md:mt-48 xl:mt-52 after:content-[none] before:left-3/4 md:before:-top-5 md:before:left-[10%] md:after:content-[''] md:after:-top-10 md:after:left-[80%] lg:before:top-3/4 lg:before:-translate-x-8">
+            <div className="container font-inter text-center grid gap-y-10 md:grid-cols-2 md:text-left lg:px-20 after:top-3/4 md:after:left-[50%] md:after:-bottom-16 md:after:top-auto">
                 <h2>Featured destinations</h2>
                 
                 <div className="flex flex-wrap justify-center gap-y-5 gap-x-6 md:col-span-2 md:justify-start xl:grid xl:grid-cols-4">
