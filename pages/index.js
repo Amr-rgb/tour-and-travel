@@ -29,8 +29,9 @@ export default function Home() {
         <Presentation2 />
         <Testimonials />
         <Stories />
-        <Footer />
       </main>
+
+      <Footer />
     </div>
   )
 }
