@@ -43,7 +43,7 @@ function Destinations() {
 
                 </div>
 
-                <Link href='#'><a className="text-orange font-semibold text-sm justify-self-center flex items-center gap-x-2 py-2 md:row-start-1 md:col-start-2 md:justify-self-end">View all <IoIosArrowForward /></a></Link>
+                <Link href='#'><a className="text-orange hover:text-[#FF9E37] active:text-[#E97700] duration-200 font-semibold text-sm justify-self-center flex items-center gap-x-2 py-2 md:row-start-1 md:col-start-2 md:justify-self-end">View all <IoIosArrowForward /></a></Link>
             </div>
         </section>
     );

@@ -34,11 +34,11 @@ body {
   }
 
   .main-btn {
-    @apply bg-orange text-white inline-block py-4 px-[59px] rounded-lg font-mulish font-bold text-sm lg:text-lg
+    @apply bg-orange text-white hover:bg-[#FF9E37] active:bg-[#E97700] duration-200 inline-block py-4 px-[59px] rounded-lg font-mulish font-bold text-sm lg:text-lg
   }
 
   .sec-btn {
-    @apply bg-orange text-white inline-block py-[14px] px-[38px] rounded-lg font-inter font-semibold text-xs lg:text-base
+    @apply bg-orange text-white hover:bg-[#FF9E37] active:bg-[#E97700] duration-200 inline-block py-[14px] px-[38px] rounded-lg font-inter font-semibold text-xs lg:text-base
   }
 
   .container {

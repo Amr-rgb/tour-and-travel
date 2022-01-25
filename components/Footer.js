@@ -50,11 +50,11 @@ function Footer() {
                 </div>
 
                 <div className="text-xl flex gap-x-6 justify-center mt-24 relative before:absolute before:w-full before:h-px before:bg-[#C4C4C4] before:-top-8 lg:text-3xl lg:gap-x-8 xl:text-4xl">
-                    <Link href='#'><a className="hover:text-lightGrey transition-colors"><BsTwitter /></a></Link>
-                    <Link href='#'><a className="hover:text-lightGrey transition-colors"><FaFacebookF /></a></Link>
-                    <Link href='#'><a className="hover:text-lightGrey transition-colors"><BsInstagram /></a></Link>
-                    <Link href='#'><a className="hover:text-lightGrey transition-colors"><FaLinkedinIn /></a></Link>
-                    <Link href='#'><a className="hover:text-lightGrey transition-colors"><BsYoutube /></a></Link>
+                    <Link href='#'><a className="hover:text-lightGrey duration-200"><BsTwitter /></a></Link>
+                    <Link href='#'><a className="hover:text-lightGrey duration-200"><FaFacebookF /></a></Link>
+                    <Link href='#'><a className="hover:text-lightGrey duration-200"><BsInstagram /></a></Link>
+                    <Link href='#'><a className="hover:text-lightGrey duration-200"><FaLinkedinIn /></a></Link>
+                    <Link href='#'><a className="hover:text-lightGrey duration-200"><BsYoutube /></a></Link>
                 </div>
             </div>
         </footer>

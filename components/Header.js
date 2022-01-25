@@ -33,8 +33,8 @@ function Header() {
                     {links.map(link => (
                         <li key={link.id}><Link href={link.link}><a className={`hover:text-lightBlack hover:font-medium duration-200 ${link.title === active ? 'active' : ''}`} onClick={() => setActive(link.title)}>{link.title}</a></Link></li>
                     ))}
-                    <li className="mt-6 -mb-2 lg:mt-0 lg:mb-0 lg:-mr-4 lg:ml-2"><button className="cta-btn border border-orange text-orange">Login</button></li>
-                    <li><button className="cta-btn border border-orange bg-orange text-white">Register</button></li>
+                    <li className="mt-6 -mb-2 lg:mt-0 lg:mb-0 lg:-mr-4 lg:ml-2"><button className="cta-btn border border-orange text-orange hover:bg-orange hover:text-white active:bg-[#E97700] duration-200">Login</button></li>
+                    <li><button className="cta-btn border border-orange bg-orange text-white hover:bg-[#FF9E37] active:bg-[#E97700] duration-200">Register</button></li>
                 </ul>
             </div>
         </header>
