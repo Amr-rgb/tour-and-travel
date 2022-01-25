@@ -29,7 +29,7 @@ function Header() {
                     name={isOpen ? 'close' : 'menu'} 
                 />
 
-                <ul className={`z-40 font-inter text-base text-[#B8BECD] bg-white absolute top-0 left-0 right-0 h-[100vh] py-8 flex flex-col items-center justify-center gap-x-8 gap-y-4 ${isOpen ? 'translate-x-0' : 'translate-x-full lg:translate-x-0'} duration-1000 ease-in-out lg:static lg:h-auto lg:flex-row lg:p-0`}>
+                <ul className={`z-40 font-inter text-base text-[#B8BECD] bg-white fixed top-0 left-0 right-0 h-[100vh] py-8 flex flex-col items-center justify-center gap-x-8 gap-y-4 ${isOpen ? 'translate-x-0' : 'translate-x-full lg:translate-x-0'} duration-1000 ease-in-out lg:static lg:h-auto lg:flex-row lg:p-0`}>
                     {links.map(link => (
                         <li key={link.id}><Link href={link.link}><a className={`hover:text-lightBlack hover:font-medium duration-200 ${link.title === active ? 'active' : ''} before:content-[attr(title)] before:block before:font-medium before:h-0 before:overflow-hidden before:invisible`} title={link.title} onClick={() => setActive(link.title)}>{link.title}</a></Link></li>
                     ))}
