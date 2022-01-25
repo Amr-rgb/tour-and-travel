@@ -13,8 +13,10 @@ SwiperCore.use([Navigation]);
 
 function Testimonials() {
     const [screenSize, setScreenSize] = useState()
-console.log(screenSize)
+
     useEffect(_ => {
+        setScreenSize(window.innerWidth)
+
         function handleResize() {
             setScreenSize(window.innerWidth)
         }
@@ -38,7 +40,7 @@ console.log(screenSize)
                 >
 
                     <SwiperSlide className='flex flex-col items-center gap-y-10 md:flex-row-reverse md:justify-between pt-4 md:pr-4 md:pb-4'>
-                        <div className="max-w-xs rounded-[14px] relative before:absolute before:w-[42px] before:h-[42px] before:bg-[url('/element2.png')] before:bg-cover after:absolute after:w-[32px] after:h-[32px] after:bg-[url('/element.png')] after:bg-cover after:z-50 after:-left-4 after:-bottom-2 before:-top-4 before:-right-4">
+                        <div className="w-10/12 max-w-xs relative before:absolute before:w-[42px] before:h-[42px] before:bg-[url('/element2.png')] before:bg-cover after:absolute after:w-[32px] after:h-[32px] after:bg-[url('/element.png')] after:bg-cover after:z-50 after:-left-4 after:-bottom-2 before:-top-4 before:-right-4">
                             <Image className='rounded-[14px]' src='/man.jpg' width={384} height={491} alt='user' />
 
                             <div className='flex gap-x-4 absolute bottom-1 right-0 bg-white pt-3 pl-6 rounded-tl-2xl'>
@@ -57,9 +59,9 @@ console.log(screenSize)
                         </div>
                     </SwiperSlide>
 
-                    <SwiperSlide className='flex flex-col items-center gap-y-10 md:flex-row-reverse md:justify-between'>
-                        <div className='max-w-xs rounded-[14px] overflow-hidden relative'>
-                            <Image src='/man2.jpg' width={384} height={491} alt='user' />
+                    <SwiperSlide className='flex flex-col items-center gap-y-10 md:flex-row-reverse md:justify-between pt-4 md:pr-4 md:pb-4'>
+                        <div className="w-10/12 max-w-xs relative before:absolute before:w-[42px] before:h-[42px] before:bg-[url('/element2.png')] before:bg-cover after:absolute after:w-[32px] after:h-[32px] after:bg-[url('/element.png')] after:bg-cover after:z-50 after:-left-4 after:-bottom-2 before:-top-4 before:-right-4">
+                            <Image className='rounded-[14px]' src='/man2.jpg' width={384} height={491} alt='user' />
 
                             <div className='flex gap-x-4 absolute bottom-1 right-0 bg-white pt-3 pl-6 rounded-tl-2xl'>
                                 <button className='prev font-black text-xl p-2 rounded-full border-2 disabled:text-grey'><IoIosArrowBack /></button>
