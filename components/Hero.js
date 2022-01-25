@@ -51,7 +51,7 @@ function Hero() {
                             <div className='font-inter text-xs text-darkGrey min-w-[144px] flex-1 relative xl:text-sm'>
                                 <button
                                     onClick={() => {setIsOpen1(prev => !prev)}}
-                                    className='flex w-full items-center justify-between border-.8 border-[#AFB0B9] rounded-md px-[18px] py-5'
+                                    className='bg-white flex w-full items-center justify-between border-.8 border-[#AFB0B9] rounded-md px-[18px] py-5'
                                 >
                                     {location}  <IoIosArrowDown className='' /></button>
                                 {isOpen1 && (
@@ -65,7 +65,7 @@ function Hero() {
                             <div className='font-inter text-xs text-darkGrey min-w-[144px] flex-1 relative xl:text-sm'>
                                 <button
                                     onClick={() => {setIsOpen2(prev => !prev)}}
-                                    className='flex w-full items-center justify-between border-.8 border-[#AFB0B9] rounded-md px-[18px] py-5'
+                                    className='bg-white flex w-full items-center justify-between border-.8 border-[#AFB0B9] rounded-md px-[18px] py-5'
                                 >
                                     {activity}  <IoIosArrowDown className='' /></button>
                                 {isOpen2 && (
@@ -79,7 +79,7 @@ function Hero() {
                             <div className='font-inter text-xs text-darkGrey min-w-[144px] flex-1 relative xl:text-sm'>
                                 <button
                                     onClick={() => {setIsOpen3(prev => !prev)}}
-                                    className='flex w-full items-center justify-between border-.8 border-[#AFB0B9] rounded-md px-[18px] py-5'
+                                    className='bg-white flex w-full items-center justify-between border-.8 border-[#AFB0B9] rounded-md px-[18px] py-5'
                                 >
                                     {grade}  <IoIosArrowDown className='' /></button>
                                 {isOpen3 && (
@@ -93,7 +93,7 @@ function Hero() {
                             <div className='font-inter text-xs text-darkGrey min-w-[144px] flex-1 relative xl:text-sm'>
                                 <button
                                     onClick={() => {setIsOpen4(prev => !prev)}}
-                                    className='flex w-full items-center justify-between border-.8 border-[#AFB0B9] rounded-md px-[18px] py-5'
+                                    className='bg-white flex w-full items-center justify-between border-.8 border-[#AFB0B9] rounded-md px-[18px] py-5'
                                 >
                                     {date}  <IoIosArrowDown className='' /></button>
                                 {isOpen4 && (
