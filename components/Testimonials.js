@@ -25,7 +25,7 @@ console.log(screenSize)
     }, [])
 
     return (
-        <section className='mt-36'>
+        <section className='mt-36 md:mt-48 xl:mt-52'>
             <div className="container text-center md:text-left lg:px-20 xl:pr-28">
                 <h2 className='mb-10'>Testimonials</h2>
 

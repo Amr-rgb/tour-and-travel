@@ -3,7 +3,7 @@ import { IoIosArrowForward } from 'react-icons/io'
 
 function Destinations() {
     return (
-        <section className="mt-36">
+        <section className="mt-36 md:mt-48 xl:mt-52">
             <div className="container font-inter text-center grid gap-y-10 md:grid-cols-2 md:text-left lg:px-20">
                 <h2>Featured destinations</h2>
                 

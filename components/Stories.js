@@ -3,7 +3,7 @@ import { IoIosArrowForward } from 'react-icons/io'
 
 function Stories() {
     return (
-        <section className='mt-36'>
+        <section className='mt-36 md:mt-48 xl:mt-52'>
             <div className="container font-inter grid justify-center text-center grid-cols-1 gap-y-10 md:text-left md:col-span-2 lg:px-20">
                 <h2>Trending stories</h2>
 
