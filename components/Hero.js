@@ -33,7 +33,7 @@ function Hero() {
     }
 
     return (
-        <section>
+        <section className='mt-10 md:mt-16'>
             <div className="container text-center grid justify-center gap-4 md:justify-start md:text-left md:grid-cols-2">
                 <div className="max-w-sm md:max-w-none md:col-start-2 md:self-center xl:row-span-2 xl:-mr-20">
                     <Image src='/ill1.png' width={687} height={654} />
