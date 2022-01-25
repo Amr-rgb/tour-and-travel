@@ -12,7 +12,7 @@ function Presentation1() {
                 <div className="text-center flex flex-col items-center gap-y-5 md:items-start md:text-left md:flex-1 xl:basis-2/5">
                     <h2>Guides by Thousand Sunny</h2>
                     <p className="font-mulish font-light text-grey text-sm">Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip</p>
-                    <Link href='#'><a className="sec-btn">Download</a></Link>
+                    <Link href='#'><a className="sec-btn xl:mt-4">Download</a></Link>
                 </div>
             </div>
         </section>

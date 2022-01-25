@@ -12,7 +12,7 @@ function Presentation1() {
                 <div className="text-center flex flex-col items-center gap-y-5 md:items-start md:text-left md:flex-1 xl:basis-2/5">
                     <h2>A new way to explore the world</h2>
                     <p className="font-mulish font-light text-grey text-sm xl:text-lg">For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect trip, but now, they can also let Lonely Planet Experiences lead the way</p>
-                    <Link href='#'><a className="sec-btn">Learn more</a></Link>
+                    <Link href='#'><a className="sec-btn xl:mt-4">Learn more</a></Link>
                 </div>
             </div>
         </section>
